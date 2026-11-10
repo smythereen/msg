@@ -6,6 +6,8 @@ transport, shared message buffering, and internal control messages. It uses
 not, by itself, a multi-host network transport: the network bridge is in
 [near](https://github.com/smythereen/near).
 
+It builds with the [base](https://github.com/smythereen/base) unit make system, which handles C, C++, and Rust, including large mixed-language projects.
+
 ## Public interface and message contract
 
 `msg.h` is the application header and includes `addr.h`. It exports
